@@ -2,7 +2,7 @@ const Discord = require('discord.js'),
 
     client = new Discord.Client({sisableEveryone: true})
 
-    console.log("muuuuuuuuute,");
+    console.log("bbb,");
 
 client.on('guildMemberAdd', member => {
 
@@ -12,7 +12,7 @@ if(!mohamed) return;
 
 if(mohamed) {
 
-setTimeout(() => mohamed.send(`**Ꮃelcome Ꭲo Ꮪerver Power**`), 2000)        
+setTimeout(() => mohamed.send(`**Ꮃelcome Ꭲo Ꮪerver Power**`), 6000)        
 
 }
 
