@@ -147,4 +147,6 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
 
 
 
+client.login(process.env.BOT_TOKEN1);
+client.login(process.env.BOT_TOKEN2);
 client.login(process.env.BOT_TOKEN);
