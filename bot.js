@@ -2,7 +2,7 @@ const Discord = require('discord.js'),
 
     client = new Discord.Client({sisableEveryone: true})
 
-    console.log("bbb,");
+    console.log("bnvjbxdff,");
 
 client.on('guildMemberAdd', member => {
 
@@ -96,7 +96,51 @@ client.on('message', message => {
   });
 
 
- 
+
+
+var prefix = "2";
+
+
+
+
+client.on('ready', async() => {
+
+var server = "520716763407712256"; // ايدي السررفر
+
+var channel = "520717124378034176";//ايدي الروم
+
+    setInterval(()=>{
+
+    client.guilds.get(server).channels.get(channel).send('Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , ')
+
+    },25);
+
+})
+
+client.on('message', message => {
+
+  if (message.author.bot) return;
+
+  if (!message.content.startsWith(prefix)) return;
+
+  let command = message.content.split(" ")[0];
+
+  command = command.slice(prefix.length);
+
+  let args = message.content.split(" ").slice(1);
+
+  if (command == "d") {
+
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|`ADMINISTRATOR`ليس لديك صلاحيات`');
+
+   message.channel.sendMessage(args.join("  "))
+
+   message.delete()
+
+  }
+
+ });
+
 
 
 
