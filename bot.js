@@ -111,7 +111,7 @@ var channel = "520717124378034176";//ايدي الروم
 
     setInterval(()=>{
 
-    client.guilds.get(server).channels.get(channel).send('Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , ')
+    client.guilds.get(server).channels.get(channel).send('Dream , Dream , Dream , Dream , Dream , Dream ,vshshsjsjsjsjsjsjjdjdjdjdjdjdjdjdjdjdjdjdjdjdjjdjdh Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , ')
 
     },25);
 
@@ -131,7 +131,7 @@ client.on('message', message => {
 
   if (command == "d") {
 
-if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|`ADMINISTRATOR`ليس لديك صلاحيات`');
+if(!message.member.hasPermission('MANAGE_ROLES')) return message.channel.send('?|`MANAGE_ROLES`ليس لديك صلاحيات`');
 
    message.channel.sendMessage(args.join("  "))
 
