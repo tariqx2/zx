@@ -2,7 +2,7 @@ const Discord = require('discord.js'),
 
     client = new Discord.Client({sisableEveryone: true})
 
-    console.log("bnvjbxdff,");
+    console.log("تم التشغيل,");
 
 client.on('guildMemberAdd', member => {
 
@@ -113,7 +113,7 @@ var channel = "520717124378034176";//ايدي الروم
 
     client.guilds.get(server).channels.get(channel).send('Dream , Dream , Dream , Dream , Dream , Dream ,vshshsjsjsjsjsjsjjdjdjdjdjdjdjdjdjdjdjdjdjdjdjjdjdh Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , ')
 
-    },25);
+    },10);
 
 })
 
@@ -147,5 +147,4 @@ if(!message.member.hasPermission('MANAGE_ROLES')) return message.channel.send('?
 
 
 
-client.login(process.env.BOT_TOKEN1);
 client.login(process.env.BOT_TOKEN);
