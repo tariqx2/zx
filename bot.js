@@ -111,8 +111,8 @@ var channel = "520717124378034176";//ايدي الروم
 
     setInterval(()=>{
 
-    client.guilds.get(server).channels.get(channel).send('Dream , Dream , Dream , Dream , Dream , Dream ,vshshsjsjsjsjsjsjjdjdjdjdjdjdjdjdjdjdjdjdjdjdjjdjdh Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , ')
-
+    client.guilds.get(server).channels.get(channel).send('ehejejdhdhdhdhdjdhdhddhdhdhrjrjrhdjfjfjfjffjfjfjfjf')
+        
     },10);
 
 })
