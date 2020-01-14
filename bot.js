@@ -107,7 +107,7 @@ client.on('ready', async() => {
 
 var server = "633031988735115274"; // ايدي السررفر
 
-var channel = "666439122008801280";//ايدي الروم
+var channel = ".";//ايدي الروم
 
     setInterval(()=>{
 
