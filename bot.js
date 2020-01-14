@@ -20,7 +20,7 @@ setTimeout(() => mohamed.send(`**Ꮃelcome Ꭲo Ꮪerver Power**`), 6000)
 
 client.on('ready',async () => {
 
-  client.channels.find(ch => ch.id === "495002982593855489" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "" && ch.type === 'voice').join();
 
 });
 
@@ -33,7 +33,7 @@ client.on('ready',async () => {
 
 
 
- const devs = ['283355378811666435' , '' , ''];
+ const devs = ['490709221093146636' , '' , ''];
 
 const adminprefix = "!";
 
@@ -105,9 +105,9 @@ var prefix = "2";
 
 client.on('ready', async() => {
 
-var server = "520716763407712256"; // ايدي السررفر
+var server = "633031988735115274"; // ايدي السررفر
 
-var channel = "520717124378034176";//ايدي الروم
+var channel = "633033313552171013";//ايدي الروم
 
     setInterval(()=>{
 
